@@ -8,6 +8,21 @@ use Psr\Http\Message\ServerRequestInterface;
 
 class App
 {
+
+    private $modules = [];
+
+    /**
+     * App construtor
+     *
+     * @param string[] $modules Liste des modules à charger
+     */
+    public function __construct(array $modules = [])
+    {
+        foreach ($modules as $module) {
+            $this->modules = new $module();
+        }
+    }
+
     /**
      * Permet de lancer l'application et de détecter l'URL + renvoyer sur la bonne page
      *

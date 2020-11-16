@@ -14,7 +14,8 @@
     "require": {
         "guzzlehttp/psr7": "^1.7",
         "http-interop/response-sender": "^1.0",
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "*",
+        "zendframework/zend-expressive-fastroute": "1.2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4"

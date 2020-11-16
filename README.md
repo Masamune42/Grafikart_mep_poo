@@ -31,3 +31,6 @@ On peut lancer les commandes pour faire des tests et sniffer le code en même te
 ```
 .\vendor\bin\phpunit ; .\vendor\bin\phpcs
 ```
+
+### Raccourcis clavier
+- Ctrl + maj + O : Rechercher toutes les fonctions et variables dans une classe
