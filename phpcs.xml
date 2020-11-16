@@ -5,6 +5,9 @@
     <arg value="p"/>
 
     <file>src</file>
-
+    <file>public/index.php</file>
+    <!-- On met en place les règles du PSR2 -->
     <rule ref="PSR2"></rule>
+    <!-- On détecte les "array()" car mauvais usage -->
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"></rule>
 </ruleset>

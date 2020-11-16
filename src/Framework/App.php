@@ -8,6 +8,12 @@ use Psr\Http\Message\ServerRequestInterface;
 
 class App
 {
+    /**
+     * Permet de lancer l'application et de détecter l'URL + renvoyer sur la bonne page
+     *
+     * @param ServerRequestInterface $request
+     * @return ResponseInterface
+     */
     public function run(ServerRequestInterface $request): ResponseInterface
     {
         // Equivalent à => $uri = $_SERVER['REQUEST_URI'];
@@ -20,7 +26,6 @@ class App
         if ($uri === '/blog') {
             return (new Response(200, [], '<h1>Bienvenue sur le blog</h1>'));
         }
-
         return new Response(404, [], '<h1>Erreur 404</h1>');
     }
 }
