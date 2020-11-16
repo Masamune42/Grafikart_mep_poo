@@ -9,9 +9,13 @@ Modulaire : On peut activer / désactiver des blocs
 Permet d'avoir un code testable via PHPUnit en créant de fausses requêtes et récupérer réponses pour faire des vérifications dessus.
 <br>
 Request et Response vont être ensuite utilisés dans cette formation.
+<br>
+Résumé d'utilisation : https://youtu.be/WHjx-MfgaFo?t=2199
 
 ### squizlabs/php_codesniffer=*
 Permet de vérifier la qualité du code et les bonnes pratiques. On peut lui préciser dans un fichier "phpcs.xml" les règles que l'on veut utiliser pour vérifier le code.
+<br>
+Résumé d'utilisation : https://youtu.be/WHjx-MfgaFo?t=2199
 
 ## Tips
 ### Lancer un serveur PHP, avec affichage des erreurs, sur le dossier public
